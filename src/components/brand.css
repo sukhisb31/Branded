@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    padding:10px;
+    justify-content: space-between;
+   
+    align-items: center;
+   
+    height:80px;
+    background-color:lightgray;
+    font-family: 
+         "Oleo Script Swash Caps", system-ui;
+        font-weight: 400;
+        font-style: normal;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap:5rem;
+    cursor: pointer;
+    justify-content: middle;
+   
+}
+button{
+    all: unset;
+    padding: 6px 26px;
+    height: 20px;
+    color: white;
+    font-weight: 500;
+    background: red;
+}
+article{
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 80px);
+}
+.center-text h1{
+   font-size:108px;
+   font-weight: 800;
+   line-height: 102px;
+   margin-bottom: 30px;
+}
+.center-text p{
+    font-weight: 600;
+    color: gray;
+    width: 400px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.btn{
+    display: flex;
+    margin-bottom: 20px;
+}
+.category{
+    margin-left: 30px;
+    color: gray;
+    background: transparent;
+    border: 1px solid gray;
+}
+.available p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.flipkart{
+    margin-left: 20px;
+}
